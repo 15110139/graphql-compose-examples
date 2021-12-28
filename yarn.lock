@@ -2488,7 +2488,12 @@ graphql-compose-aws@^1.1.0:
   dependencies:
     babel-runtime "^6.26.0"
 
-graphql-compose-connection@>=3.2.0, graphql-compose-connection@^3.2.0:
+graphql-compose-connection@>=3.2.1:
+  version "8.2.1"
+  resolved "https://registry.yarnpkg.com/graphql-compose-connection/-/graphql-compose-connection-8.2.1.tgz#ca78363f4f94a209e31d9dc8905de2e26bcb8b81"
+  integrity sha512-75QOx1HusfkLzDlF+RMGoC0UowbZ2R7/xFRIMfbQf1gc6eeRqiGmTWFxHaUYk2WjTAB4dGO7p/gllfwqO0W/TA==
+
+graphql-compose-connection@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/graphql-compose-connection/-/graphql-compose-connection-3.2.0.tgz#87bb068564b76bfdf613c48134b1e47ed4a2f232"
   dependencies:
@@ -2501,14 +2506,15 @@ graphql-compose-elasticsearch@^1.10.1:
     babel-runtime "^6.26.0"
     dox "^0.9.0"
 
-graphql-compose-mongoose@^4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/graphql-compose-mongoose/-/graphql-compose-mongoose-4.4.0.tgz#fb25bc9679b10bd988852febaa6779d9c58fd655"
+graphql-compose-mongoose@^4.6.2:
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/graphql-compose-mongoose/-/graphql-compose-mongoose-4.6.2.tgz#59a4a9a3f8e5accd005feab84d404c60ed92669f"
+  integrity sha512-jDYlWbg6cI+fWhK4TFL/EjJp4wMFXlxBRh7hX7a+fIS3gSSlSTcTQ6D3/UCDpGotSHzMJ9pGeoTSj8zJVDhhVg==
   dependencies:
     babel-runtime "^6.26.0"
     object-path "^0.11.4"
   optionalDependencies:
-    graphql-compose-connection ">=3.2.0"
+    graphql-compose-connection ">=3.2.1"
     graphql-compose-pagination ">=3.3.0"
 
 graphql-compose-pagination@>=3.3.0, graphql-compose-pagination@^3.3.0:
