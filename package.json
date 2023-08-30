@@ -44,7 +44,8 @@
     "graphql-compose-pagination": "^3.3.0",
     "graphql-compose-relay": "^2.1.1",
     "graphql-playground-middleware-express": "^1.7.2",
-    "mongoose": "^5.2.4"
+    "mongoose": "^5.2.4",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
@@ -76,6 +77,9 @@
     "coverage": "jest --coverage --maxWorkers 2",
     "lint": "eslint --ext .js ./examples",
     "flow": "./node_modules/.bin/flow",
-    "test": "npm run coverage && npm run lint && npm run flow"
-  }
+    "test": "npm run coverage && npm run lint && npm run flow",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
