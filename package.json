@@ -33,7 +33,7 @@
     "babel-preset-env": "^1.7.0",
     "cors": "^2.8.4",
     "elasticsearch": "^15.1.1",
-    "express": "^4.16.3",
+    "express": "^4.21.2",
     "express-graphql": "^0.6.12",
     "graphql": "0.13.2",
     "graphql-compose": "^4.7.1",
@@ -44,7 +44,7 @@
     "graphql-compose-pagination": "^3.3.0",
     "graphql-compose-relay": "^2.1.1",
     "graphql-playground-middleware-express": "^1.7.2",
-    "mongoose": "^5.2.4"
+    "mongoose": "^8.8.3"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
